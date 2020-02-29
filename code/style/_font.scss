@@ -3,13 +3,14 @@ $mainFont: 'Sigmar One', Arial;
 $secondFont: 'Open Sans', Georgia;
 
 body {
-  font:16px $secondFont;
+  font-family: $secondFont;
+  font-size: 16px;
   color: $blackey;
 }
 
 @for $index from 1 through 6 {
   h#{$index}{
-    font: $mainFont;
+    font-family: $mainFont;
     color: $firstColor
   }
 }
