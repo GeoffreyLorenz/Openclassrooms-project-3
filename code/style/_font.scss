@@ -1,0 +1,15 @@
+@import "color";
+$mainFont: 'Sigmar One', Arial;
+$secondFont: 'Open Sans', Georgia;
+
+body {
+  font:16px $secondFont;
+  color: $blackey;
+}
+
+@for $index from 1 through 6 {
+  h#{$index}{
+    font: $mainFont;
+    color: $firstColor
+  }
+}

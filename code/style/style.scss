@@ -1,0 +1,14 @@
+@import "color", "font";
+
+#hero {
+  width: 100%;
+  background-image: url('/images/background-images/Cinema-plein-air.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.card {
+  width: 90%;
+  margin: 0 auto;
+  margin-top:25px;
+}
