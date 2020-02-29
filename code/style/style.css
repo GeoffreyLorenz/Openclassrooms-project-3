@@ -38,6 +38,10 @@ h6 {
   color: #E1C340;
 }
 
+.fa-video {
+  transform: rotate(-90deg);
+}
+
 #hero {
   width: 100%;
   background-image: url("/images/background-images/Cinema-plein-air.jpg");
