@@ -16,34 +16,40 @@
   </head>
     <title>Les Films de Plein Air</title>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <i class="fas fa-video"></i>
-      <a class="navbar-brand" href="#">Festival des Films de Plein Air</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExample04">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Évènements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Nos Films</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services annexes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Réserver</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">À propos</a>
-          </li>
-      </div>
-    </nav>
+
+ <div class="container">
+    <header class="row">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark row col-12">
+            <i class="fas fa-video"></i>
+            <a class="navbar-brand" href="#">Festival des Films de Plein Air</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Évènements</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nos Films</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services annexes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Réserver</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">À propos</a>
+                </li>
+            </div>
+      </nav>
+    </header>
+    </div>
+
 
 
     <section id="hero" class="jumbotron">
@@ -111,8 +117,8 @@
     <section id="nousTrouver" class="card">
       <div class="card-body">
         <h2 class="card-title">Comment nous trouver?</h2>
-        <div id="googleMap">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531366574!2d2.3067663159035074!3d48.87968700716066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sde!4v1582466398546!5m2!1sfr!2sde" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <div id="google-map-div">
+          <iframe id="google-map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531366574!2d2.3067663159035074!3d48.87968700716066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sde!4v1582466398546!5m2!1sfr!2sde" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
       </div>
     </section>
@@ -166,12 +172,13 @@
     </section>
 
     <footer>
-      <img src="images/icons/footer/facebook.svg" alt="icon Facebook" />
-      <img src="images/icons/footer/instagram.svg" alt="icon Instagram" />
-      <img src="images/icons/footer/twitter.svg" alt="icon Twitter" />
-      <img src="images/icons/footer/meetup.svg" alt="icon MeetUp" />
-      <img src="images/icons/footer/goup.svg" alt="icon To go up" />
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-meetup"></i>
+      <i class="fas fa-chevron-circle-up"></i>
     </footer>
+  </div>
 <!-- Regarder les Cards bootstrap -->
 
 

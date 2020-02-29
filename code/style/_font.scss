@@ -4,7 +4,7 @@ $secondFont: 'Open Sans', Georgia;
 
 body {
   font-family: $secondFont;
-  font-size: 16px;
+  font-size: 12px;
   color: $blackey;
 }
 
@@ -13,4 +13,8 @@ body {
     font-family: $mainFont;
     color: $firstColor
   }
+}
+
+.navbar-brand {
+  font-size: 1.2em;
 }
