@@ -1,9 +1,5 @@
-body {
-  font-family: "Open Sans", Georgia;
-  font-size: 12px;
-  color: #0F0E0E;
-}
-
+/*Color*/
+/*Font*/
 h1 {
   font-family: "Sigmar One", Arial;
   color: #E1C340;
@@ -34,11 +30,12 @@ h6 {
   color: #E1C340;
 }
 
-.navbar-brand {
-  font-size: 1.2em;
+a.nav-link {
+  font-family: "Sigmar One", Arial;
 }
 
-.fas {
+/*Icons*/
+.fas, .fab {
   color: #E1C340;
 }
 
@@ -46,37 +43,41 @@ h6 {
   transform: rotate(-90deg);
 }
 
+/*Sections*/
 body {
-  width: 100%;
+  font-family: "Open Sans", Georgia;
+  font-size: 1em;
+  color: #0F0E0E;
 }
 
-.container {
-  width: 100%;
-  background-color: yellow;
-  margin: 0;
-  padding: 0;
+#nav-title {
+  font-family: "Sigmar One", Arial;
+  font-size: 12px;
+  color: #E1C340;
 }
 
-.row {
-  width: 100%;
-  margin: 0;
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #E1C340;
 }
 
 #hero {
-  width: 100%;
   background-image: url("/images/background-images/Cinema-plein-air.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.card {
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 25px;
+section {
+  text-align: center;
 }
 
-footer {
-  width: 100%;
+.card {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
