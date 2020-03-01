@@ -54,9 +54,6 @@ body {
   color: $firstColor;
 }
 
-
-
-
 #hero {
   background-image: url('/images/background-images/Cinema-plein-air.jpg');
   background-repeat: no-repeat;
@@ -71,4 +68,17 @@ section {
   width: 90%;
   margin: 0 auto;
   margin-top:25px;
+  border: 2px solid $thirdColor;
+}
+
+form {
+  text-align:left;
+  input, select, textarea {
+  border: 1px solid #E1C340;
+  padding-left: 1em;
+  padding-right: 1em;
+  }
+  input {
+    border-radius: 15px;
+  }
 }
