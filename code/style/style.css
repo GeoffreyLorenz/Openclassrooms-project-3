@@ -37,7 +37,7 @@ a.nav-link {
 /*Sections*/
 body {
   font-family: "Open Sans", Georgia;
-  font-size: 1em;
+  font-size: 16px;
   color: #0F0E0E; }
 
 #nav-title {
@@ -73,5 +73,12 @@ form {
     padding-right: 1em; }
   form input {
     border-radius: 15px; }
+
+footer {
+  background-color: #0F0E0E; }
+  footer .fab, footer .fas {
+    font-size: 2em; }
+  footer p {
+    color: #E1C340; }
 
 /*# sourceMappingURL=style.css.map */

@@ -35,7 +35,7 @@ a.nav-link {
 
 body {
   font-family: $secondFont;
-  font-size: 1em;
+  font-size: 16px;
   color: $blackey;
 }
 
@@ -80,5 +80,15 @@ form {
   }
   input {
     border-radius: 15px;
+  }
+}
+
+footer {
+  background-color: $blackey;
+  .fab, .fas {
+    font-size: 2em;
+  }
+  p {
+    color: $firstColor;
   }
 }
