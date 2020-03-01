@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <title>Les Films de Plein Air</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,10 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet"> <!-- Voir pour DL en local -->
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="style/style.css">
-
   </head>
-    <title>Les Films de Plein Air</title>
-  <body class="container-fluide">
+
+  <body class="container-fluid">
+
     <header class="row">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark col-12">
             <i class="fas fa-video"></i>
@@ -44,24 +45,29 @@
                   <a class="nav-link" href="#">À propos</a>
                 </li>
             </div>
-      </nav>
+        </nav>
     </header>
 
-    <section id="hero" class="jumbotron">
-      <h1 class "col-12">Des stars plein les yeux</h1>
+  <div class="row">
+    <section id="hero" class="jumbotron col-12">
+      <h1 >Des stars plein les yeux</h1>
       <a class="btn btn-primary btn-lg" href="#" role="button">Réserver</a>
     </section>
+  </div>
 
-    <section id="filmsDePleinAir" class="card row">
-      <div class="card-body col-12">
+  <div class="row">
+    <section id="filmsDePleinAir" class="card col-12 col-md-6 col-xl-3">
+      <div class="card-body">
       <h2 class="card-title">Films de Plein Air</h2>
       <p class="card-text">Le  festival des films de Plein Air est une expérience culturelle et cinématographique qui a lieu au parc Monceau du 5 au 8 août. Venez découvrir notre sélection de films d'auteur et passer un moment convivial entre amis ou en famille. Nous vous proposons un film par soir.</p>
       </div>
     </section>
+  </div>
 
-    <section id="nosFilms" class="card row">
-      <div class="card-body col-12">
-        	<h2 class="card-title">Nos Films</h2>
+  <div class="row">
+    <section id="nosFilms" class="card col-12 col-md-6 col-xl-3">
+      <div class="card-body">
+          <h2 class="card-title">Nos Films</h2>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -94,8 +100,10 @@
           </div>
         </div>
       </section>
+  </div>
 
-    <section id="nosServices" class="card">
+  <div class="row">
+    <section id="nosServices" class="card col-12 col-md-6 col-xl-3">
       <div class="card-body">
         <h2 class="card-title">Nos Services</h2>
         <p class="card-text">
@@ -104,74 +112,83 @@
         <i class="fas fa-hamburger"></i><span>Amenez votre pique-niqueou venez déguster nos popcorns</span><br />
         </p>
       </div>
-  </section>
+    </section>
+    </div>
 
-    <section id="nousTrouver" class="card">
-      <div class="card-body">
-        <h2 class="card-title">Comment nous trouver?</h2>
-        <div id="google-map-div">
-          <iframe id="google-map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531366574!2d2.3067663159035074!3d48.87968700716066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sde!4v1582466398546!5m2!1sfr!2sde" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <div class="row">
+      <section id="nousTrouver" class="card col-12 col-md-6">
+        <div class="card-body">
+          <h2 class="card-title">Comment nous trouver?</h2>
+          <div id="google-map-div">
+            <iframe id="google-map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531366574!2d2.3067663159035074!3d48.87968700716066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sde!4v1582466398546!5m2!1sfr!2sde" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
-    <section id=form class="card">
-      <div class="card-body">
-      <h2 class="card-title">Réserver</h2>
-      <form action="#" autocomplete="on">
-        <label for="prenom">Prénom</label><br />
-        <input type="text" id="prenom" name="prenom" placeholder="Geoffrey" pattern="[A-Za-z]" maxlength="35" /><br />
-        <label for="nomFamille">Nom de famille</label><br />
-        <input type="text" id="nomFamille" id="nomFamille" placeholder="Lorenz" maxlength="35" /><br />
-        <label for="emailAdresse">Adresse e-mail</label><br />
-        <input type="email" id="emailAdresse" name="emailAdresse" placeholder="geoffrey.lorenz@gmx.de" /><br />
-        <label for="quantite">Combien de personnes vous accompagneront?</label><br />
-        <input type="number" id="quantite" name="quantite" min="0" max="10" value="0"><br />
-        <label for="films">Selection du film</label><br />
-        <select id="films" name="films">
-          <option value="magnificient">Magnificient - 05/08/2020</option>
-          <option value="Tintin">Tintin - 06/08/2020</option>
-          <option value="Dark Night Rises">The Dark Night Rises - 07/08/2020</option>
-          <option value="Uri">Uri - 08/08/2020</option>
-        </select><br />
-        <textarea name="message">Ajouter votre message ici</textarea><br />
-        <input type="submit" value="Réserver" />
-        </form>
-      </div>
-    </section>
-
-    <section id="aPropos" class="card">
-      <div class="card-body">
-        <h2 class="card-title">A propos</h2>
-        <p class="card-text">
-          L'association les Films de Plein Air est une association de loi 1901 à but non lucratif. Le but de l'association les Films de Plein Air est de projeter des films d'auteur au grand public. Ces projections ont lieu en plein air: parc, bois, parking et tout autre lieu.
-        </p>
-        <a href="blog/blog.htm" class="card-link">Lire notre blog</a>
-      </div>
-    </section>
-
-    <section id="newsletter" class="card">
-      <div class="card-body">
-        <h2 class="card-title">Newsletter</h2>
-        <form action="/newsletter.php" method="post" autocomplete="on">
+    <div class="row">
+      <section id=form class="card col-12 col-md-6">
+        <div class="card-body">
+        <h2 class="card-title">Réserver</h2>
+        <form action="#" autocomplete="on">
+          <label for="prenom">Prénom</label><br />
+          <input type="text" id="prenom" name="prenom" placeholder="Geoffrey" pattern="[A-Za-z]" maxlength="35" /><br />
+          <label for="nomFamille">Nom de famille</label><br />
+          <input type="text" id="nomFamille" id="nomFamille" placeholder="Lorenz" maxlength="35" /><br />
           <label for="emailAdresse">Adresse e-mail</label><br />
           <input type="email" id="emailAdresse" name="emailAdresse" placeholder="geoffrey.lorenz@gmx.de" /><br />
-          <label for="agree">J'autorise l'association les Films de Plein Air à communiquer avec moi dans le respect du règlement <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679">RGPD</a></label><br>
-          <input type="checkbox" name="agree" value="agree" required>
-          <input type="submit" value="S'abonner" />
-        </form>
-      </div>
-    </section>
+          <label for="quantite">Combien de personnes vous accompagneront?</label><br />
+          <input type="number" id="quantite" name="quantite" min="0" max="10" value="0"><br />
+          <label for="films">Selection du film</label><br />
+          <select id="films" name="films">
+            <option value="magnificient">Magnificient - 05/08/2020</option>
+            <option value="Tintin">Tintin - 06/08/2020</option>
+            <option value="Dark Night Rises">The Dark Night Rises - 07/08/2020</option>
+            <option value="Uri">Uri - 08/08/2020</option>
+          </select><br />
+          <textarea name="message">Ajouter votre message ici</textarea><br />
+          <input type="submit" value="Réserver" />
+          </form>
+        </div>
+      </section>
+    </div>
 
-    <footer>
+    <div class="row">
+      <section id="aPropos" class="card col-12 col-xl-3">
+        <div class="card-body">
+          <h2 class="card-title">A propos</h2>
+          <p class="card-text">
+            L'association les Films de Plein Air est une association de loi 1901 à but non lucratif. Le but de l'association les Films de Plein Air est de projeter des films d'auteur au grand public. Ces projections ont lieu en plein air: parc, bois, parking et tout autre lieu.
+          </p>
+          <a href="blog/blog.htm" class="card-link">Lire notre blog</a>
+        </div>
+      </section>
+    </div>
+
+    <div class="row">
+      <section id="newsletter" class="card col-12">
+        <div class="card-body">
+          <h2 class="card-title">Newsletter</h2>
+          <form action="/newsletter.php" method="post" autocomplete="on">
+            <label for="emailAdresse">Adresse e-mail</label><br />
+            <input type="email" id="emailAdresse" name="emailAdresse" placeholder="geoffrey.lorenz@gmx.de" /><br />
+            <label for="agree">J'autorise l'association les Films de Plein Air à communiquer avec moi dans le respect du règlement <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679">RGPD</a></label><br>
+            <input type="checkbox" name="agree" value="agree" required>
+            <input type="submit" value="S'abonner" />
+          </form>
+        </div>
+      </section>
+    </div>
+
+  <div class="row">
+    <footer class="col-12">
       <i class="fab fa-facebook-f"></i>
       <i class="fab fa-instagram"></i>
       <i class="fab fa-twitter"></i>
       <i class="fab fa-meetup"></i>
       <i class="fas fa-chevron-circle-up"></i>
     </footer>
-<!-- Regarder les Cards bootstrap -->
-
+  </div>
 
 
 
