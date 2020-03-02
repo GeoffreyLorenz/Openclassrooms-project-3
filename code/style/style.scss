@@ -65,9 +65,8 @@ section {
 }
 
 .card {
-  width: 90%;
-  margin: 0 auto;
   margin-top:25px;
+  margin-bottom:25px;
   border: 2px solid $thirdColor;
 }
 
@@ -91,4 +90,9 @@ footer {
   p {
     color: $firstColor;
   }
+}
+
+.btn {
+  background-color: $firstColor;
+  color: $whitey;
 }

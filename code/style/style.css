@@ -60,9 +60,8 @@ section {
   text-align: center; }
 
 .card {
-  width: 90%;
-  margin: 0 auto;
   margin-top: 25px;
+  margin-bottom: 25px;
   border: 2px solid #1B3D2F; }
 
 form {
@@ -80,5 +79,9 @@ footer {
     font-size: 2em; }
   footer p {
     color: #E1C340; }
+
+.btn {
+  background-color: #E1C340;
+  color: #F9F9F9; }
 
 /*# sourceMappingURL=style.css.map */
