@@ -17,36 +17,44 @@ $secondFont: 'Open Sans', Georgia;
   }
 }
 
+
+body {
+  font-family: $secondFont;
+  font-size: 12px;
+  color: $blackey;
+}
+
+#nav-title {
+  font-family: $mainFont;
+  font-size: 1em;
+  color: $firstColor;
+}
+
+
 a.nav-link {
   font-family: $mainFont;
 }
 
-
 /*Icons*/
 .fas, .fab {
   color: $firstColor;
+  font-size: 12px;
 }
 
 .fa-video {
   transform: rotate(-90deg);
 }
 
-/*Sections*/
+/*Sections and elements*/
 
-body {
-  font-family: $secondFont;
-  font-size: 16px;
-  color: $blackey;
+
+h1 {
+  font-size: 1.6em;
 }
-
-#nav-title {
-  font-family: $mainFont;
-  font-size: 12px;
-  color: $firstColor;
-  }
 
 .navbar-toggler {
   border: none;
+  font-size: 12px;
 }
 
 
@@ -70,6 +78,7 @@ section {
   border: 2px solid $thirdColor;
   h2 {
     margin-bottom:10px;
+    font-size: 1.4em;
   }
 }
 
@@ -95,11 +104,36 @@ footer {
     font-size: 2em;
   }
   p {
+    font-family: $mainFont;
+    font-size: 10px;
     color: $firstColor;
+    text-align: right;
   }
 }
 
-.btn {
+.btn-lg {
+  font-size: 1.2em;
   background-color: $firstColor;
   color: $whitey;
+}
+
+h2 + p {
+  text-align: justify;
+}
+
+#block-for-link {
+  text-align: right;
+  .card-link {
+    font-weight:bold;
+    font-size: 1.2em;
+    color: $secondColor;
+  }
+}
+
+.card-body i {
+  font-size: 3.6em;
+}
+
+#google-map-iframe {
+  width: 95%;
 }
