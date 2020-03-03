@@ -137,3 +137,11 @@ h2 + p {
 #google-map-iframe {
   width: 95%;
 }
+
+.carousel-indicators li {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: $firstColor;
+  border: 2px solid $thirdColor;
+}
