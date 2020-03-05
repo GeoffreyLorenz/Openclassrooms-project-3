@@ -99,6 +99,7 @@ form {
 }
 
 footer {
+  padding-top: 10px;
   background-color: $blackey;
   .fab, .fas {
     font-size: 2em;
@@ -133,6 +134,9 @@ h2 + p {
   font-size: 3.6em;
 }
 
+#google-map-iframe {
+  width: 95%;
+}
 
 .carousel-indicators li {
   width: 1em;
