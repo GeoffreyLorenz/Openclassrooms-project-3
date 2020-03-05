@@ -107,7 +107,6 @@ footer {
     font-family: $mainFont;
     font-size: 10px;
     color: $firstColor;
-    text-align: right;
   }
 }
 
@@ -134,9 +133,6 @@ h2 + p {
   font-size: 3.6em;
 }
 
-#google-map-iframe {
-  width: 95%;
-}
 
 .carousel-indicators li {
   width: 1em;
