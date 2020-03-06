@@ -97,14 +97,15 @@ form {
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  input {
+  input, select {
     border-radius: 15px;
   }
+
 }
 
 footer {
-  padding-top: 10px;
   background-color: $blackey;
+  padding-top: 10px;
   .fab, .fas {
     font-size: 2em;
   }
