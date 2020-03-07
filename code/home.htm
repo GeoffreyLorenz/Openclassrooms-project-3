@@ -99,13 +99,30 @@
 
       </section>
     <section id="nosServices" class="card col-12 col-md-6">
-      <div class="card-body with-big-icon">
+      <div class="card-body justify-content-between">
+
         <h2 class="card-title">Nos Services</h2>
-        <p class="card-text">
-        <i class="fas fa-beer"></i><span>Visitez notre buvette pour vous rafraîchir avec  nos boissons</span><br />
-        <span>Allongez vous dans l'herbe ou louez un de nos sofas</span> <i class="fas fa-chair"></i><br />
-        <i class="fas fa-hamburger"></i><span>Amenez votre pique-niqueou venez déguster nos popcorns</span><br />
-        </p>
+          <div class="d-flex align-items-center">
+            <i class="fas fa-beer col-2"></i>
+            <p class="card-text offset-2 col-8">
+            <span>Visitez notre buvette pour vous rafraîchir avec  nos boissons</span>
+            </p>
+          </div>
+
+          <div class="d-flex align-items-center">
+            <p class="card-text col-8">
+            <span>Allongez vous dans l'herbe ou louez un de nos sofas</span>
+            </p>
+            <i class="fas fa-chair offset-2 col-2"></i><br />
+          </div>
+
+          <div class="d-flex align-items-center">
+            <i class="fas fa-hamburger col-2"></i>
+            <p class="card-text offset-2 col-8">
+            <span>Amenez votre pique-nique ou venez déguster nos popcorns</span><br />
+            </p>
+        </div>
+
       </div>
     </section>
 
@@ -161,13 +178,16 @@
           <form action="/newsletter.php" method="post" autocomplete="on">
             <label for="emailAdresse">Adresse e-mail</label><br />
             <input class="col-12" type="email" id="emailAdresse" name="emailAdresse" placeholder="geoffrey.lorenz@gmx.de" /><br />
-            <input class="col-1" type="checkbox" name="agree" value="agree" required>
-            <label class="col-10" for="agree">J'autorise l'association les Films de Plein Air à communiquer avec moi dans le respect du règlement <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679">RGPD</a></label><br>
+            <div class="d-flex align-items-center">
+              <input class="col-1" type="checkbox" name="agree" value="agree" required>
+              <label class="col-10" for="agree">J'autorise l'association les Films de Plein Air à communiquer avec moi dans le respect du règlement <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679">RGPD</a></label><br>
+            </div>
             <input class="btn btn-lg offset-4 col-4" type="submit" value="S'abonner" />
           </form>
+        </div>
       </section>
-    </div>
   </div>
+</div>
 
     <footer class="col-12">
       <div class="container">

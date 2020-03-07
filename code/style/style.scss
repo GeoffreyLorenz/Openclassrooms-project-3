@@ -120,6 +120,11 @@ footer {
   font-size: 1.2em;
   background-color: $firstColor;
   color: $whitey;
+  &:hover {
+    background-color: $thirdColor;
+    color: $firstColor;
+
+  }
 }
 
 h2 + p {
@@ -149,4 +154,16 @@ h2 + p {
   border-radius: 50%;
   background-color: $firstColor;
   border: 2px solid $thirdColor;
+}
+
+#nosServices{
+  .align-items-center
+  {
+    margin-top: 20px;
+    text-align: left;
+  }
+  .fas {
+    color: $thirdColor;
+  }
+
 }
