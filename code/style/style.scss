@@ -89,10 +89,15 @@ section {
 form {
   text-align:left;
   input, select, textarea {
-  border: 1px solid #E1C340;
+  border: 1px solid $firstColor;
+  background-color: $whitey;
   padding-left: 1em;
   padding-right: 1em;
+  &:hover {
+    border-color: $secondColor;
   }
+  }
+
   input, select, textarea, label {
     margin-bottom: 10px;
     margin-top: 10px;
@@ -100,7 +105,9 @@ form {
   input, select {
     border-radius: 15px;
   }
-
+  textarea {
+    height: 100px;
+  }
 }
 
 footer {

@@ -79,13 +79,18 @@ form {
   text-align: left; }
   form input, form select, form textarea {
     border: 1px solid #E1C340;
+    background-color: #F9F9F9;
     padding-left: 1em;
     padding-right: 1em; }
+    form input:hover, form select:hover, form textarea:hover {
+      border-color: #482B1B; }
   form input, form select, form textarea, form label {
     margin-bottom: 10px;
     margin-top: 10px; }
   form input, form select {
     border-radius: 15px; }
+  form textarea {
+    height: 100px; }
 
 footer {
   background-color: #0F0E0E;
