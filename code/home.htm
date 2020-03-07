@@ -17,7 +17,7 @@
 
   <body>
     <div class="container-fluid">
-      <header class="row">
+      <header class="row order-0">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark col-12">
               <i class="fas fa-video"></i>
               <a class="navbar-brand" id="nav-title" href="#">Festival des Films de Plein Air</a>
@@ -46,23 +46,26 @@
                   </li>
               </div>
           </nav>
-          <section id="hero" class="jumbotron col-12">
+          <section id="hero" class="jumbotron jumbotron-fluid col-12">
+            <!-- need to put the title up and the button down -->
+            <div class="container d-flex flex-column justify-content-between">
             <h1>Des stars plein les yeux</h1>
-            <a class="btn btn-lg envoyer" href="#" role="button">Réserver</a>
+            <a class="btn btn-lg" href="#" id="header-button" role="button">Réserver</a>
+          </div>
           </section>
         </header>
       </div>
 
 <div class="container">
   <div class="row justify-content-center">
-    <section id="filmsDePleinAir" class="card textuelle col-12 col-md-6 col-xl-4">
+    <section id="filmsDePleinAir" class="card col-12 order-1">
       <div class="card-body">
       <h2 class="card-title">Films de Plein Air</h2>
       <p class="card-text">Le  festival des films de Plein Air est une expérience culturelle et cinématographique qui a lieu au parc Monceau du 5 au 8 août. Venez découvrir notre sélection de films d'auteur et passer un moment convivial entre amis ou en famille. Nous vous proposons un film par soir.</p>
       </div>
     </section>
 
-    <section id="nosFilms" class="card col-12 col-md-6 col-xl-4">
+    <section id="nosFilms" class="card col-12 col-md-6 col-lg-4 order-2">
       <div class="card-body">
           <h2 class="card-title">Nos Films</h2>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -98,9 +101,8 @@
         </div>
 
       </section>
-    <section id="nosServices" class="card col-12 col-md-6">
+    <section id="nosServices" class="card col-12 col-md-6 col-lg-4 order-3">
       <div class="card-body justify-content-between">
-
         <h2 class="card-title">Nos Services</h2>
           <div class="d-flex align-items-center">
             <i class="fas fa-beer col-2"></i>
@@ -126,7 +128,7 @@
       </div>
     </section>
 
-      <section id="nousTrouver" class="card col-12 col-md-6">
+      <section id="nousTrouver" class="card col-12 col-md-6 order-4">
         <div class="card-body">
           <h2 class="card-title">Comment nous trouver?</h2>
           <div id="google-map-div">
@@ -135,7 +137,7 @@
         </div>
       </section>
 
-      <section id=form class="card col-12 col-md-6">
+      <section id=form class="card col-12 col-md-6 order-5">
         <div class="card-body">
         <h2 class="card-title">Réserver</h2>
         <form action="#" autocomplete="on">
@@ -160,7 +162,7 @@
           </form>
         </div>
       </section>
-      <section id="aPropos" class="card textuelle col-12 col-xl-4">
+      <section id="aPropos" class="card textuelle col-12 col-lg-4 order-6 order-lg-3">
         <div class="card-body">
           <h2 class="card-title">A propos</h2>
           <p class="card-text">
@@ -172,7 +174,7 @@
         </div>
       </section>
 
-      <section id="newsletter" class="card col-12">
+      <section id="newsletter" class="card col-12 order-7">
         <div class="card-body">
           <h2 class="card-title">Newsletter</h2>
           <form action="/newsletter.php" method="post" autocomplete="on">
@@ -189,7 +191,7 @@
   </div>
 </div>
 
-    <footer class="col-12">
+    <footer class="col-12 order-8">
       <div class="container">
           <div class="row" id="footer-icon-bar">
             <i class="fab fa-facebook-f col-2"></i>

@@ -61,9 +61,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.jumbotron {
-  border-radius: 0px; }
-
 section {
   text-align: center; }
 
@@ -83,6 +80,8 @@ form {
     padding-left: 1em;
     padding-right: 1em; }
     form input:hover, form select:hover, form textarea:hover {
+      border-color: #1B3D2F; }
+    form input:focus, form select:focus, form textarea:focus {
       border-color: #482B1B; }
   form input, form select, form textarea, form label {
     margin-bottom: 10px;
