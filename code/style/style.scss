@@ -152,6 +152,7 @@ h2 + p {
 
 #google-map-iframe {
   width: 95%;
+  height: 35vh;
 }
 
 .carousel-indicators li {
@@ -170,5 +171,16 @@ h2 + p {
   }
   .fas {
     color: $thirdColor;
+  }
+}
+
+.fas.fa-search {
+  font-size: 1em;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  opacity: 1;
+  &:hover {
+    opacity: 0.8
   }
 }
