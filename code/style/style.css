@@ -119,6 +119,11 @@ h2 + p {
     font-size: 1.2em;
     color: #482B1B; }
 
+.blog-link {
+  color: #482B1B;
+  font-weight: bold;
+  text-shadow: 1px 0px #482B1B; }
+
 .card-body i {
   font-size: 3.6em; }
 

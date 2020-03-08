@@ -146,6 +146,12 @@ h2 + p {
   }
 }
 
+.blog-link {
+  color: $secondColor;
+  font-weight: bold;
+  text-shadow: 1px 0px $secondColor;
+}
+
 .card-body i {
   font-size: 3.6em;
 }
