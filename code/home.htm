@@ -47,18 +47,21 @@
                 </ul>
               </div>
           </nav>
+
           <section id="hero" class="jumbotron jumbotron-fluid col-12">
             <!-- need to put the title up and the button down -->
-            <div class="container d-flex flex-column justify-content-between">
-            <h1>Des stars plein les yeux</h1>
-            <a class="btn btn-lg" href="#" id="header-button" role="button">Réserver</a>
-          </div>
+            <div id="div-hero" class="container d-flex flex-column justify-content-between"> <!--le faire en CSS -->
+              <h1>Des stars plein les yeux</h1>
+
+              <a class="btn btn-lg offset-4 col-4" href="#reserver" id="header-button" role="button">Réserver</a>
+            </div>
           </section>
+
         </header>
       </div>
 
-<div class="container">
-  <div class="row justify-content-center">
+<div class="container" id="mostContent">
+  <div class="row justify-content-center ">
     <section id="filmsDePleinAir" class="card col-12 order-1">
       <div class="card-body">
       <h2 class="card-title">Films de Plein Air</h2>
@@ -152,6 +155,8 @@
           <input class="col-4" type="number" id="quantite" name="quantite" min="0" max="10" value="0"><br />
           <label for="films">Selection du film</label><br />
           <select class="col-12" id="films" name="films">
+            <option>
+            </option>
             <option value="magnificient">Magnificient - 05/08/2020</option>
             <option value="Tintin">Tintin - 06/08/2020</option>
             <option value="Dark Night Rises">The Dark Night Rises - 07/08/2020</option>

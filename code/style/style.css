@@ -61,8 +61,10 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-section {
-  text-align: center; }
+#mostContent {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%; }
 
 .card {
   margin-top: 25px;
@@ -151,5 +153,8 @@ h2 + p {
   opacity: 1; }
   .carousel-control-prev:hover, .carousel-control-next:hover {
     opacity: 0.8; }
+
+#div-hero {
+  height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
