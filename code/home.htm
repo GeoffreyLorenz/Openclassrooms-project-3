@@ -19,30 +19,30 @@
     <div class="container-fluid">
       <header class="row order-0">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark col-12">
-              <i class="fas fa-video"></i>
-              <a class="navbar-brand" id="nav-title" href="#">Festival des Films de Plein Air</a>
+              <a class="icon-link" href="#"><i class="fas fa-video"></i></a>
+              <a class="navbar-brand" id="nav-title" href="#hero">Festival des Films de Plein Air</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
               </button>
               <div class="collapse navbar-collapse" id="navbarsExample04">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#hero">Accueil<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Évènements</a>
+                    <a class="nav-link" href="#filmsDePleinAir">Évènements</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Nos Films</a>
+                    <a class="nav-link" href="#nosFilms">Nos Films</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Services annexes</a>
+                    <a class="nav-link" href="#nosServices">Services annexes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Réserver</a>
+                    <a class="nav-link" href="#reserver">Réserver</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">À propos</a>
+                    <a class="nav-link" href="#aPropos">À propos</a>
                   </li>
                 </ul>
               </div>
@@ -71,7 +71,7 @@
           <h2 class="card-title">Nos Films</h2>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li class="rounded-circle" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
@@ -138,7 +138,7 @@
         </div>
       </section>
 
-      <section id=form class="card col-12 col-md-6 order-5">
+      <section id="reserver" class="card col-12 col-md-6 order-5">
         <div class="card-body">
         <h2 class="card-title">Réserver</h2>
         <form action="#" autocomplete="on">
@@ -195,14 +195,14 @@
     <footer class="col-12 order-8">
       <div class="container">
           <div class="row" id="footer-icon-bar">
-            <i class="fab fa-facebook-f col-2"></i>
-            <i class="fab fa-instagram col-2"></i>
-            <i class="fab fa-twitter col-2"></i>
-            <i class="fab fa-meetup offset-1 col-2"></i>
-            <i class="fas fa-chevron-circle-up offset-1 co-2"></i>
+            <a class="social-link col-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-link col-2" href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
+            <a class="social-link col-2" href="https://twitter.com/home?lang=fr"><i class="fab fa-twitter"></i></a>
+            <a class="social-link offset-1 col-2" href="https://www.meetup.com/"><i class="fab fa-meetup "></i></a>
+            <a class="social-link offset-1 co-2" href="#hero"><i class="fas fa-chevron-circle-up"></i></a>
           </div>
           <div class="row" id="backup">
-            <p class="offset-10 col-2">Back up</p>
+            <a href="#hero"></a><p class="offset-10 col-2">Back up</p></a>
           </div>
       </div>
     </footer>
