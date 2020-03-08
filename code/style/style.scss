@@ -86,7 +86,7 @@ h1 {
 
 form {
   text-align:left;
-  input, select, textarea {
+  input, select, textarea, .form-control  {
   border: 1px solid $firstColor;
   background-color: $whitey;
   padding-left: 1em;
@@ -108,6 +108,33 @@ form {
   }
   textarea {
     height: 100px;
+  }
+}
+
+#search-bar {
+  border: 1px solid $firstColor;
+  border-radius: 15px;
+  margin-left: 5px;
+  background-color: $whitey;
+  div.row {
+    margin-left: 0;
+  }
+}
+
+#search-field {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  border: none;
+}
+
+#search-span{
+  border: none;
+  button {
+    border: none;
+    padding: 0 0 0 12px;
+    background-color: $whitey;
+    font-size: 12px;
   }
 }
 

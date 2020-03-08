@@ -76,14 +76,14 @@ h1 {
 
 form {
   text-align: left; }
-  form input, form select, form textarea {
+  form input, form select, form textarea, form .form-control {
     border: 1px solid #E1C340;
     background-color: #F9F9F9;
     padding-left: 1em;
     padding-right: 1em; }
-    form input:hover, form select:hover, form textarea:hover {
+    form input:hover, form select:hover, form textarea:hover, form .form-control:hover {
       border-color: #1B3D2F; }
-    form input:focus, form select:focus, form textarea:focus {
+    form input:focus, form select:focus, form textarea:focus, form .form-control:focus {
       border-color: #482B1B; }
   form input, form select, form textarea, form label {
     margin-bottom: 10px;
@@ -92,6 +92,28 @@ form {
     border-radius: 15px; }
   form textarea {
     height: 100px; }
+
+#search-bar {
+  border: 1px solid #E1C340;
+  border-radius: 15px;
+  margin-left: 5px;
+  background-color: #F9F9F9; }
+  #search-bar div.row {
+    margin-left: 0; }
+
+#search-field {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  border: none; }
+
+#search-span {
+  border: none; }
+  #search-span button {
+    border: none;
+    padding: 0 0 0 12px;
+    background-color: #F9F9F9;
+    font-size: 12px; }
 
 footer {
   background-color: #0F0E0E;
