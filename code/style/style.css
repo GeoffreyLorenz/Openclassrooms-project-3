@@ -46,9 +46,6 @@ a.nav-link {
   transform: rotate(-90deg); }
 
 /*Sections and elements*/
-h1 {
-  font-size: 1.6em; }
-
 .navbar-toggler {
   border: none;
   font-size: 12px; }
@@ -59,7 +56,15 @@ h1 {
 #hero {
   background-image: url("/images/background-images/Cinema-plein-air.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  padding-top: 10px;
+  height: 300px; }
+  #hero h1 {
+    font-size: 1.6em;
+    text-align: center; }
+  #hero #header-button {
+    position: absolute;
+    margin-top: 200px; }
 
 #mostContent {
   text-align: center;
