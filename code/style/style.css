@@ -2,27 +2,17 @@
 /*Font*/
 h1 {
   font-family: "Sigmar One", Arial;
-  color: #E1C340; }
+  color: #E1C340;
+  text-align: center; }
 
 h2 {
   font-family: "Sigmar One", Arial;
-  color: #E1C340; }
+  color: #E1C340;
+  text-align: center; }
 
 h3 {
-  font-family: "Sigmar One", Arial;
-  color: #E1C340; }
-
-h4 {
-  font-family: "Sigmar One", Arial;
-  color: #E1C340; }
-
-h5 {
-  font-family: "Sigmar One", Arial;
-  color: #E1C340; }
-
-h6 {
-  font-family: "Sigmar One", Arial;
-  color: #E1C340; }
+  font-family: "Open Sans", Georgia;
+  color: #0F0E0E; }
 
 body {
   font-family: "Open Sans", Georgia;
@@ -60,8 +50,7 @@ a.nav-link {
   padding-top: 10px;
   height: 300px; }
   #hero h1 {
-    font-size: 1.6em;
-    text-align: center; }
+    font-size: 1.6em; }
   #hero #header-button {
     position: absolute;
     margin-top: 200px; }
@@ -153,6 +142,10 @@ h2 + p {
   font-weight: bold;
   text-shadow: 1px 0px #482B1B; }
 
+.card-body .container-card-body {
+  margin-top: 50%;
+  margin-bottom: 50%; }
+
 .card-body i {
   font-size: 3.6em; }
 
@@ -183,5 +176,9 @@ h2 + p {
 
 #div-hero {
   height: 100%; }
+
+h3 {
+  font-family: "Open Sans", Georgia;
+  color: #0F0E0E; }
 
 /*# sourceMappingURL=style.css.map */

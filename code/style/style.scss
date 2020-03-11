@@ -10,11 +10,17 @@ $mainFont: 'Sigmar One', Arial;
 $secondFont: 'Open Sans', Georgia;
 
 
-@for $index from 1 through 6 {
+@for $index from 1 through 2 {
   h#{$index}{
     font-family: $mainFont;
     color: $firstColor;
+    text-align: center;
   }
+}
+
+h3 {
+  font-family: $secondFont;
+  color: $blackey;
 }
 
 
@@ -66,7 +72,6 @@ a.nav-link {
   height: 300px;
   h1 {
     font-size: 1.6em;
-    text-align: center;
   }
   #header-button {
     position: absolute;
@@ -187,6 +192,12 @@ h2 + p {
   text-shadow: 1px 0px $secondColor;
 }
 
+.card-body {
+  .container-card-body {
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+}
 .card-body i {
   font-size: 3.6em;
 }
@@ -228,4 +239,8 @@ h2 + p {
 
 #div-hero {
   height: 100%;
+}
+h3 {
+  font-family: $secondFont;
+  color: $blackey;
 }
