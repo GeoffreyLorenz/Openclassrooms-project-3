@@ -223,6 +223,7 @@ iframe, .carousel-item img {
   position: relative;
   right: 0%;
   left: 0%;
+  height: 30px;
   p {
     color: $blackey;
   }
@@ -246,8 +247,8 @@ iframe, .carousel-item img {
 }
 
 .carousel-control-prev, .carousel-control-next {
-  top: -40%;
   opacity: 1;
+  height: 50%;
   &:hover {
     opacity: 0.8
   }

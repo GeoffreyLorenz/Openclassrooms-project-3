@@ -205,6 +205,7 @@ iframe, .carousel-item img {
   position: relative;
   right: 0%;
   left: 0%;
+  height: 30px;
 }
 .carousel-caption p {
   color: #0F0E0E;
@@ -225,8 +226,8 @@ iframe, .carousel-item img {
 }
 
 .carousel-control-prev, .carousel-control-next {
-  top: -40%;
   opacity: 1;
+  height: 50%;
 }
 .carousel-control-prev:hover, .carousel-control-next:hover {
   opacity: 0.8;
