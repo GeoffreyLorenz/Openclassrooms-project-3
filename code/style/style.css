@@ -78,6 +78,10 @@ a.nav-link {
   font-size: 1.4em;
 }
 
+.card.no-padding-side {
+  padding: 0px 2px 0px 2px;
+}
+
 form {
   text-align: left;
 }

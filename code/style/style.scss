@@ -92,6 +92,10 @@ a.nav-link {
   }
 }
 
+.card.no-padding-side {
+  padding: 0px 2px 0px 2px;
+}
+
 form {
   text-align:left;
   input, select, textarea, .form-control  {
