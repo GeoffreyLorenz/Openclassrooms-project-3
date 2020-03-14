@@ -49,6 +49,8 @@ a.nav-link {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
   height: 300px;
 }
 #hero h1 {
@@ -57,7 +59,7 @@ a.nav-link {
 }
 #hero #header-button {
   position: absolute;
-  margin-top: 200px;
+  margin-top: 225px;
 }
 
 #mostContent {
@@ -171,9 +173,9 @@ h2 + p {
   text-shadow: 1px 0px #482B1B;
 }
 
-.card-body .container-card-body {
-  margin-top: 50%;
-  margin-bottom: 50%;
+.card-body {
+  padding-left: 0;
+  padding-right: 0;
 }
 .card-body i {
   font-size: 3.6em;
