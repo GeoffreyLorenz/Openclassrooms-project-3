@@ -24,8 +24,13 @@ body {
   color: #E1C340;
 }
 
-a.nav-link {
+.nav-link {
   font-family: "Sigmar One", Arial;
+  font-size: 0.8em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #E1C340;
 }
 
 /*Icons*/
@@ -42,10 +47,6 @@ a.nav-link {
 .navbar-toggler {
   border: none;
   font-size: 12px;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  color: #E1C340;
 }
 
 #hero {
@@ -190,7 +191,7 @@ h2 + p {
 
 #google-map-iframe {
   width: 95%;
-  height: 35vh;
+  height: 183px;
 }
 
 iframe, .carousel-item img {

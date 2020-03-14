@@ -32,8 +32,13 @@ body {
 }
 
 
-a.nav-link {
+.nav-link {
   font-family: $mainFont;
+  font-size: 0.8em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $firstColor;
 }
 
 /*Icons*/
@@ -54,10 +59,6 @@ a.nav-link {
   font-size: 12px;
 }
 
-
-.navbar-dark .navbar-nav .nav-link {
-  color: $firstColor;
-}
 
 #hero {
   background-image: url('/images/background-images/Cinema-plein-air.jpg');
@@ -204,7 +205,7 @@ h2 + p {
 
 #google-map-iframe {
   width: 95%;
-  height: 35vh;
+  height: 183px;
 }
 
 iframe, .carousel-item img {
