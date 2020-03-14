@@ -99,7 +99,9 @@ body {
 
 form {
   text-align:left;
-  input, select, textarea, .form-control  {
+  input, select, textarea, .form-control, option  {
+  font-weight: bold;
+  color: $blackey;
   border: 1px solid $firstColor;
   background-color: $whitey;
   padding-left: 1em;
@@ -122,6 +124,25 @@ form {
   textarea {
     height: 100px;
   }
+  /* Placeholder */
+
+  ::-webkit-input-placeholder {
+   color: $blackey;
+   font-weight: bold;
+  }
+  :-moz-placeholder { /* older Firefox*/
+   color: $blackey;
+   font-weight: bold;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: $blackey;
+    font-weight: bold;
+  }
+  :-ms-input-placeholder {
+    color: $blackey;
+    font-weight: bold;
+  }
+
 }
 
 #search-bar {
@@ -232,8 +253,11 @@ iframe, .carousel-item img {
   right: 0%;
   left: 0%;
   height: 30px;
+  h3 {
+  }
   p {
     color: $blackey;
+    font-weight: bold;
   }
 }
 

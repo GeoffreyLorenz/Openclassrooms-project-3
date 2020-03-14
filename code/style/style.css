@@ -88,17 +88,20 @@ body {
 
 form {
   text-align: left;
+  /* Placeholder */
 }
-form input, form select, form textarea, form .form-control {
+form input, form select, form textarea, form .form-control, form option {
+  font-weight: bold;
+  color: #0F0E0E;
   border: 1px solid #E1C340;
   background-color: #F9F9F9;
   padding-left: 1em;
   padding-right: 1em;
 }
-form input:hover, form select:hover, form textarea:hover, form .form-control:hover {
+form input:hover, form select:hover, form textarea:hover, form .form-control:hover, form option:hover {
   border-color: #1B3D2F;
 }
-form input:focus, form select:focus, form textarea:focus, form .form-control:focus {
+form input:focus, form select:focus, form textarea:focus, form .form-control:focus, form option:focus {
   border-color: #482B1B;
 }
 form input, form select, form textarea, form label {
@@ -110,6 +113,24 @@ form input, form select {
 }
 form textarea {
   height: 100px;
+}
+form ::-webkit-input-placeholder {
+  color: #0F0E0E;
+  font-weight: bold;
+}
+form :-moz-placeholder {
+  /* older Firefox*/
+  color: #0F0E0E;
+  font-weight: bold;
+}
+form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #0F0E0E;
+  font-weight: bold;
+}
+form :-ms-input-placeholder {
+  color: #0F0E0E;
+  font-weight: bold;
 }
 
 #search-bar {
@@ -221,6 +242,7 @@ img {
 }
 .carousel-caption p {
   color: #0F0E0E;
+  font-weight: bold;
 }
 
 #nosServices .align-items-center {
