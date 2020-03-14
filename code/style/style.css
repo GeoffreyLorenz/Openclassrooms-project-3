@@ -216,6 +216,8 @@ iframe, .carousel-item img {
 }
 #nosServices .fas {
   color: #1B3D2F;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .fas.fa-search {
