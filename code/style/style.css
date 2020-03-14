@@ -44,6 +44,10 @@ a.nav-link {
   font-size: 12px;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #E1C340;
+}
+
 #hero {
   background-image: url("/images/background-images/Cinema-plein-air.jpg");
   background-repeat: no-repeat;
