@@ -56,7 +56,6 @@ a.nav-link {
 
 
 .navbar-dark .navbar-nav .nav-link {
-  color: $firstColor;
 }
 
 #hero {
@@ -67,6 +66,7 @@ a.nav-link {
   height: 300px;
   h1 {
     font-size: 1.6em;
+    text-shadow: 5px 5px $blackey;
   }
   #header-button {
     position: absolute;
@@ -201,6 +201,11 @@ h2 + p {
   width: 95%;
   height: 35vh;
 }
+
+iframe, .carousel-item img {
+    box-shadow: 3px 3px 3px rgba($blackey, 0.4);
+;
+  }
 
 .carousel-indicators {
   position: relative;
