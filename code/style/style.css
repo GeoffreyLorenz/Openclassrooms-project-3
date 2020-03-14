@@ -198,6 +198,10 @@ iframe, .carousel-item img {
   box-shadow: 3px 3px 3px rgba(15, 14, 14, 0.4);
 }
 
+img {
+  height: 150px;
+}
+
 .carousel-indicators {
   position: relative;
 }
@@ -235,7 +239,7 @@ iframe, .carousel-item img {
 
 .carousel-control-prev, .carousel-control-next {
   opacity: 1;
-  height: 50%;
+  height: 150px;
 }
 .carousel-control-prev:hover, .carousel-control-next:hover {
   opacity: 0.8;
