@@ -49,12 +49,10 @@
         </header>
       </div>
 
-      <div class="container">
+      <div class="container" id="mostContent">
         <div class="row justify-content-center">
-        <div class="div-both-caroussel col-12 col-lg-8 order-2 order-md-3">
-          <div class="row justify-content-center">
 
-          <section id="evenement" class="card no-padding-side col-12 col-md-6 col-lg-12 order-3 order-md-4">
+          <section id="evenement" class="card no-padding-side col-12 col-md-5 col-lg-8 order-3 order-md-4 order-lg-2">
             <div class="card-body">
                 <h2 class="card-title">Actualités des évènements</h2>
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -136,7 +134,7 @@
               </div>
             </section>
 
-            <section id="association" class="card no-padding-side col-12 col-md-6 col-lg-12 order-4 order-md-5">
+            <section id="association" class="card no-padding-side col-12 offset-md-1 col-md-5 offset-lg-0 col-lg-8 order-4 order-md-5 order-lg-4">
               <div class="card-body">
                   <h2 class="card-title">Actualités de l'association</h2>
 
@@ -222,11 +220,9 @@
                   </div>
                 </div>
               </section>
-            </div>
-          </div>
 
 
-            <section id="newsletter" class="card col-12 order-4 order-md-6">
+            <section id="newsletter" class="card col-12 order-4 order-md-6 offset-lg-1 col-lg-3">
               <div class="card-body">
                 <h2 class="card-title">Newsletter</h2>
                 <form action="/newsletter.php" method="post" autocomplete="on">
@@ -241,20 +237,20 @@
               </div>
             </section>
 
-            <section id="navigation" class="card col-12 col-lg-4 order-5 order-md-2 order-lg-5">
+            <section id="navigation" class="card col-12 offset-lg-1 col-lg-3 order-5 order-md-2 order-lg-3">
               <div class="card-body">
                 <h2 class="card-title col-12">Navigation</h2>
                 <form class="row d-flex align-items-center search-form" action="/navigation.php" method="post">
-                  <select id="category" name="category" class="col-5 col-lg-12">
+                  <select id="category" name="category" class="col-5 col-lg-11">
                     <option value="News">News</option>
                     <option value="Évènements">Évènements</option>
                     <option value="Nos critiques de films">Critiques</option>
                     <option value="Études cinématographiques">Études cinématographiques</option>
                   </select>
 
-                  <div id="search-bar" class="col-6 col-lg-12">
+                  <div id="search-bar" class="col-6 col-lg-11">
                     <div class="row">
-                      <input class="col-8 col-sm-9 col-md-10 col-lg-10" id="search-field" class="form-control border-right-0 " type="text" placeholder="Rechercher">
+                      <input class="col-8 col-sm-9 col-md-10 col-lg-9" id="search-field" class="form-control border-right-0 " type="text" placeholder="Rechercher">
                       <span id="search-span" class="">
                       <button id="search-icon" class="btn" type="submit"><i class="fas fa-search"></i></button>
                       </span>
@@ -263,6 +259,8 @@
                 </form>
               </div>
         </section>
+      </div>
+    </div>
 
         <footer class="col-12 order-8">
           <div class="container">
@@ -278,8 +276,6 @@
               </div>
           </div>
         </footer>
-      </div>
-    </div>
           <!-- Optional JavaScript -->
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
           <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
