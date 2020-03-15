@@ -275,6 +275,10 @@ footer p {
 
 /*FOOTER*/
 /*Elements*/
+input:focus, select:focus {
+  outline: none;
+}
+
 .btn {
   font-size: 0.8em;
   background-color: #E1C340;
