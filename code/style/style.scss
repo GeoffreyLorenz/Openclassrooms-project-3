@@ -86,10 +86,14 @@ h3 {
   }
 }
 
+#filmsDePleinAir {
+  max-width: 90%;
+
+}
+
 #mostContent {
   text-align:center;
-  padding-left: 10%;
-  padding-right: 10%;
+  max-width: 90%;
 }
 /*HERO*/
 
@@ -149,8 +153,6 @@ h3 {
       right: 0%;
       left: 0%;
       height: 30px;
-      h3 {
-      }
       p {
         color: $blackey;
         font-weight: bold;
@@ -297,3 +299,162 @@ iframe, .carousel-item img {
     box-shadow: 3px 3px 3px rgba($blackey, 0.4);
   }
 /*Elements*/
+
+// Small devices (smartphon,576px and up)
+@media (min-width: 576px) {
+  nav {
+    .fas {
+      font-size: 3em;
+    }
+    #nav-title {
+      font-size: 2em;
+    }
+    .nav-link {
+      font-size: 2em;
+    }
+  }
+
+  #hero {
+    height: 380px;
+    h1 {
+      font-size: 3em;
+    }
+    .btn {
+      font-size: 1.6em;
+    }
+  }
+  .card {
+    .card-body {
+      h2 {
+      font-size: 1.8em;
+      }
+      h3 {
+        font-size: 1.6em;
+      }
+      img, .carousel-control-next, .carousel-control-prev {
+        height: 280px;
+      }
+      .carousel-indicators {
+        font-size: 25px;
+      }
+  }
+}
+
+  #aPropos p, #filmsDePleinAir p, #nosServices p {
+    font-size: 1.6em;
+  }
+  form {
+    font-size: 1.4em;
+    .btn {
+      font-size: 1.3em;
+    }
+  }
+
+  footer {
+    .fab, .fas {
+      font-size: 4em;
+    }
+    #backup {
+      font-size: 1.1em;
+      padding: 0px;
+      }
+  }
+ }
+ // End of Small devices (smartphon,576px and up)
+
+ // medium devices (Tablets 768px and up)
+@media (min-width: 768px) {
+  nav {
+    .fas {
+      font-size: 1em;
+    }
+    #nav-title {
+      font-size: 1.1em;
+    }
+    .nav-link {
+      font-size: 0.79em;
+    }
+  }
+  #nosServices, #reserver {
+    p {
+    font-size: 1em;
+    }
+    .fas {
+      font-size: 3em;
+    }
+    .btn {
+      font-size: 0.65em;
+    }
+  }
+
+  .card {
+    .card-body {
+      h3 {
+        font-size: 1.2em;
+      }
+      img, .carousel-control-next, .carousel-control-prev {
+        height: 180px;
+      }
+    }
+  }
+
+  #google-map-iframe {
+    height: 650px;
+  }
+}
+
+  // end of medium devices (Tablets 768px and up)
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    #hero {
+      height: 500px;
+      .btn {
+        font-size: 2em;
+      }
+    }
+    #filmsDePleinAir {
+      position: absolute;
+      width: 30%;
+      left: 0;
+      font-size: 0.7em;
+      bottom: 0px;
+      top: 320px;
+      height: 209px;
+      background-color: #e9ecefa3;
+      text-shadow: 2px 2px 5px $blackey;
+    }
+    #aPropos p {
+      font-size: 1.3em;
+    }
+    .carousel.slide.pointer-event {
+      margin-top: 25px;
+    }
+
+    #reserver .btn {
+        font-size: 1.2em;
+      }
+      nav {
+        .fas {
+          font-size: 2em;
+        }
+        #nav-title {
+          font-size: 1.6em;
+        }
+        .nav-link {
+          font-size: 1em;
+        }
+      }
+    #newsletter-blog {
+      font-size: 0.8em;
+    }
+    #category, #search-bar {
+      position: absolute;
+    }
+    #category {
+      top: 20%;
+    }
+    #search-bar {
+      bottom: 20%;
+    }
+}

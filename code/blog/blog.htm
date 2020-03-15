@@ -222,7 +222,7 @@
               </section>
 
 
-            <section id="newsletter" class="card col-12 order-4 order-md-6 offset-lg-1 col-lg-3">
+            <section id="newsletter-blog" class="card col-12 order-4 order-md-6 offset-lg-1 col-lg-3">
               <div class="card-body">
                 <h2 class="card-title">Newsletter</h2>
                 <form action="/newsletter.php" method="post" autocomplete="on">
@@ -242,6 +242,7 @@
                 <h2 class="card-title col-12">Navigation</h2>
                 <form class="row d-flex align-items-center search-form" action="/navigation.php" method="post">
                   <select id="category" name="category" class="col-5 col-lg-11">
+                    <option value="Choisir catégorie">Catégorie</option>
                     <option value="News">News</option>
                     <option value="Évènements">Évènements</option>
                     <option value="Nos critiques de films">Critiques</option>
@@ -262,20 +263,20 @@
       </div>
     </div>
 
-        <footer class="col-12 order-8">
-          <div class="container">
-              <div class="row" id="footer-icon-bar">
-                <a class="social-link col-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a class="social-link col-2" href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
-                <a class="social-link col-2" href="https://twitter.com/home?lang=fr"><i class="fab fa-twitter"></i></a>
-                <a class="social-link offset-1 col-2" href="https://www.meetup.com/"><i class="fab fa-meetup "></i></a>
-                <a class="social-link offset-1 co-2" href="#hero"><i class="fas fa-chevron-circle-up"></i></a>
-              </div>
-              <div class="row" id="backup">
-                <a class="offset-10 col-2" href="#hero"><p>Back up</p></a>
-              </div>
+    <footer class="col-12 order-8">
+      <div class="container">
+          <div class="row" id="footer-icon-bar">
+            <a class="social-link offset-1 col-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-link col-2" href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
+            <a class="social-link col-2" href="https://twitter.com/home?lang=fr"><i class="fab fa-twitter"></i></a>
+            <a class="social-link col-2" href="https://www.meetup.com/"><i class="fab fa-meetup "></i></a>
+            <a class="social-link offset-1 col-2" href="#hero"><i class="fas fa-chevron-circle-up"></i></a>
           </div>
-        </footer>
+          <div class="row" id="backup">
+            <a href="#hero"></a><p class="offset-10 col-2" id="backup">Back up</p></a>
+          </div>
+      </div>
+    </footer>
           <!-- Optional JavaScript -->
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
           <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
