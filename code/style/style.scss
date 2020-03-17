@@ -70,7 +70,7 @@ h3 {
 
 /*HERO*/
 #hero {
-  background-image: url('/images/background-images/Cinema-plein-air.jpg');
+  background-image: url('../images/background-images/Cinema-plein-air.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0px;
@@ -110,12 +110,16 @@ h3 {
   .card-body {
     .carousel-control-prev, .carousel-control-next {
       opacity: 1;
+      margin-bottom: 0 auto;
       height: 150px;
       &:hover {
         opacity: 0.8
       }
     }
     img {
+      width: 100%;
+      max-width: 315px;
+      margin: 0 auto;
       height: 150px;
     }
     h2 {
@@ -305,6 +309,7 @@ iframe, .carousel-item img {
   }
 /*Elements*/
 
+
 // Small devices (smartphon,576px and up)
 @media (min-width: 576px) {
   nav {
@@ -337,6 +342,7 @@ iframe, .carousel-item img {
         font-size: 1.6em;
       }
       img, .carousel-control-next, .carousel-control-prev {
+        max-width: 525px;
         height: 280px;
       }
       .carousel-indicators {
@@ -398,7 +404,8 @@ iframe, .carousel-item img {
         font-size: 1.2em;
       }
       img, .carousel-control-next, .carousel-control-prev {
-        height: 180px;
+        max-width: 315px;
+        height: 150px;
       }
     }
   }
@@ -412,6 +419,18 @@ iframe, .carousel-item img {
 
   // Large devices (desktops, 992px and up)
   @media (min-width: 992px) {
+    .card {
+      .card-body {
+        h3 {
+          font-size: 1.2em;
+        }
+        img, .carousel-control-next, .carousel-control-prev {
+          max-width: 273px;
+          height: 130px;
+        }
+      }
+    }
+
     #hero {
       height: 500px;
       .btn {
