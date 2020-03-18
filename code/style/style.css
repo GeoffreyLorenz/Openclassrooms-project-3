@@ -178,6 +178,42 @@ h3 {
   padding-right: 0px;
 }
 
+#association .carousel-inner img, #evenement .carousel-inner img {
+  width: 100%;
+  max-width: 315px;
+  height: 210px;
+}
+
+.carousel-control-prev-blog {
+  left: 0;
+}
+
+.carousel-control-next-blog {
+  right: 0;
+}
+
+.carousel-control-next-blog, .carousel-control-prev-blog {
+  height: 210px;
+  position: absolute;
+  top: 22.4px;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.15s ease;
+}
+.carousel-control-next-blog:hover, .carousel-control-prev-blog:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
 /*CARD*/
 /* FORM */
 form {
@@ -357,6 +393,16 @@ iframe, .carousel-item img {
     font-size: 1.1em;
     padding: 0px;
   }
+
+  #association .carousel-inner img, #evenement .carousel-inner img {
+    max-width: 400px;
+    height: 266px;
+  }
+
+  .carousel-control-next-blog, .carousel-control-prev-blog {
+    max-width: 400px;
+    height: 266px;
+  }
 }
 @media (min-width: 768px) {
   nav .fas {
@@ -455,6 +501,16 @@ iframe, .carousel-item img {
 
   #search-bar {
     bottom: 20%;
+  }
+
+  #association .carousel-inner img, #evenement .carousel-inner img {
+    max-width: 700px;
+    height: 466px;
+  }
+
+  .carousel-control-next-blog, .carousel-control-prev-blog {
+    max-width: 700px;
+    height: 466px;
   }
 }
 
