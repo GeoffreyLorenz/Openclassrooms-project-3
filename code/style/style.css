@@ -339,6 +339,17 @@ iframe, .carousel-item img {
   box-shadow: 3px 3px 3px rgba(15, 14, 14, 0.4);
 }
 
+#rc-imageselect, .g-recaptcha {
+  transform: scale(0.77);
+  transform-origin: 0;
+  transform: scale(0.77);
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.77);
+  transform: scale(0.77);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
 /*Elements*/
 @media (min-width: 576px) {
   nav .fas {

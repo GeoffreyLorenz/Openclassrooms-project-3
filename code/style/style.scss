@@ -225,7 +225,7 @@ h3 {
 /* FORM */
 form {
   text-align:left;
-  input, select, textarea, .form-control, option  {
+  input, select, textarea, .form-control, option {
   font-weight: bold;
   color: $blackey;
   border: 1px solid $firstColor;
@@ -303,6 +303,7 @@ form {
     font-size: 1em;
   }
 }
+
 /*navigation-section*/
 
 /*FOOTER*/
@@ -345,6 +346,19 @@ input:focus, select:focus {
 iframe, .carousel-item img {
     box-shadow: 3px 3px 3px rgba($blackey, 0.4);
   }
+
+// found on: http://beta.rdsign.net/articles/comment-redimensionner-le-recaptcha-v2-de-google-pour-le-responsive
+#rc-imageselect, .g-recaptcha {
+    transform:scale(0.77);
+    transform-origin:0;
+    transform:scale(0.77);
+    transform-origin:0 0;
+    -webkit-transform:scale(0.77);
+    transform:scale(0.77);
+    -webkit-transform-origin:0 0;
+    transform-origin:0 0;
+}
+
 /*Elements*/
 
 
